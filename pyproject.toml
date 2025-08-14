@@ -38,6 +38,7 @@ rag-example = "example_usage:main"
 medical-chatbot = "src.medical_chatbot:main"
 medical-demo = "medical_chatbot_demo:run_demo"
 local-llm-demo = "local_llm_demo:main"
+safety-test = "dangerous_content_test:main"
 
 [build-system]
 requires = ["poetry-core"]
